@@ -77,5 +77,7 @@ npm run dev
 ```
 
 👤 Author
+
 Asiri Manjitha
+
 Full Stack Developer | Angular | .NET Core | Vue | AWS
