@@ -64,15 +64,17 @@ git clone https://github.com/your-username/urbanpulse.git
 cd urbanpulse
 
 
-Install Dependencies
+# Install Dependencies
 
 npm install
 
-Run the App
+# Run the App
 
 npm run dev
 
-The app will run on http://localhost:5173
+# The app will run on http://localhost:5173
+
+```
 
 👤 Author
 Asiri Manjitha
