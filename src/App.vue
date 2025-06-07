@@ -1,30 +1,73 @@
-<script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
+<!-- src/App.vue -->
 <template>
-  <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+  <div id="app">
+    <header>
+      <nav>
+        <h1 class="logo">UrbanPulse</h1>
+        <ul class="nav-links">
+          <li><router-link to="/">Home</router-link></li>
+          <li><router-link to="/local-issues">Local Issues</router-link></li>
+          <li><router-link to="/solutions">Solutions</router-link></li>
+          <li><router-link to="/events">Events</router-link></li>
+          <li><router-link to="/feedback">Feedback</router-link></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <router-view />
+    </main>
+
+    <footer>
+      <p>© 2025 UrbanPulse. All rights reserved.</p>
+    </footer>
   </div>
-  <HelloWorld msg="Vite + Vue" />
 </template>
 
+<script setup>
+// no logic needed yet
+</script>
+
 <style scoped>
+/* Basic layout styles */
+#app {
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #1a1a2e;
+  padding: 1rem 2rem;
+  color: #fff;
+}
+
 .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+  margin: 0;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
 }
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  flex: 1;
+  padding: 2rem;
+}
+
+footer {
+  background-color: #1a1a2e;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
 }
 </style>
