@@ -1,4 +1,3 @@
-<!-- src/views/Home.vue -->
 <template>
     <section class="home">
         <img src="/assets/home.jpg" alt="City Banner" class="banner" />

@@ -1,4 +1,3 @@
-<!-- src/views/Events.vue -->
 <template>
     <section class="events">
         <h2>Community Events & Activities</h2>

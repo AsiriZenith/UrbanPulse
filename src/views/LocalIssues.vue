@@ -1,4 +1,3 @@
-<!-- src/views/LocalIssues.vue -->
 <template>
     <section class="local-issues">
         <h2>Local Urban Challenges</h2>

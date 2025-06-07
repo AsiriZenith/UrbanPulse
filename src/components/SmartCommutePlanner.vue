@@ -1,4 +1,3 @@
-<!-- src/components/SmartCommutePlanner.vue -->
 <template>
     <div class="commute-planner">
         <h3>🚶 Smart Commute Planner</h3>

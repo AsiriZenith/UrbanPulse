@@ -1,4 +1,3 @@
-<!-- src/views/Solutions.vue -->
 <template>
     <section class="solutions">
         <h2>Smart Solutions for a Better City</h2>

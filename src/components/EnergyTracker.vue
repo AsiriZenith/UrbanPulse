@@ -1,4 +1,3 @@
-<!-- src/components/EnergyTracker.vue -->
 <template>
   <div class="energy-tracker">
     <h3>⚡ Energy Usage Tracker</h3>

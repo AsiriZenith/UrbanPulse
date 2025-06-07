@@ -1,4 +1,3 @@
-<!-- src/views/Feedback.vue -->
 <template>
     <section class="feedback">
         <h2>Share Your Feedback</h2>
