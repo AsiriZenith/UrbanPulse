@@ -1,6 +1,6 @@
 <template>
     <section class="home">
-        <img src="/assets/home.jpg" alt="City Banner" class="banner" />
+        <img :src="IMAGE_URLS.CITY_BANNER" alt="City Banner" class="banner" />
         <h2>Welcome to UrbanPulse</h2>
         <p>
             UrbanPulse is your digital guide to smarter and greener city living. Explore how
@@ -30,7 +30,7 @@
 </template>
 
 <script setup>
-// no logic needed yet
+import { IMAGE_URLS } from '../constants/imageUrl';
 </script>
 
 <style scoped>

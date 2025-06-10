@@ -12,7 +12,7 @@
                 <p>
                     Increasing number of vehicles and poor traffic signal synchronization lead to long commute times.
                 </p>
-                <img src="/assets/traffic.jpg" alt="Traffic jam in city" />
+                <img :src="IMAGE_URLS.TRAFFIC_JAM" alt="Traffic jam in city" />
             </div>
 
             <div class="issue-card">
@@ -21,7 +21,7 @@
                     Lack of organized garbage separation and insufficient recycling practices lead to environmental
                     harm.
                 </p>
-                <img src="/assets/waste.jpg" alt="Waste problem image" />
+                <img :src="IMAGE_URLS.WASTE_DISPOSAL" alt="Waste problem image" />
             </div>
 
             <div class="issue-card">
@@ -29,11 +29,15 @@
                 <p>
                     Heavy reliance on non-renewable energy sources increases the city's carbon footprint.
                 </p>
-                <img src="/assets/energy.jpg" alt="High energy usage" />
+                <img :src="IMAGE_URLS.ENERGY_CONSUMPTION" alt="High energy usage" />
             </div>
         </div>
     </section>
 </template>
+
+<script setup lang="ts">
+import { IMAGE_URLS } from '../constants/imageUrl';
+</script>
 
 <style scoped>
 .local-issues {

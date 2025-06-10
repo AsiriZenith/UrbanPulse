@@ -25,8 +25,9 @@ To create an interactive website that:
 
 ---
 
-## 📁 Folder Structure
+## �� Folder Structure
 
+```
 urbanpulse/
 ├── public/
 │ └── assets/ # Static images (e.g., banner, icons, map mockups)
@@ -37,7 +38,7 @@ urbanpulse/
 │ ├── main.ts # App entry point
 │ └── router/
 │ └── index.js # Vue Router config
-
+```
 
 ---
 

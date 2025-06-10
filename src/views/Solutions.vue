@@ -13,7 +13,7 @@
                     Use AI-based traffic signals that adapt to real-time congestion levels, reducing idle time and
                     improving flow.
                 </p>
-                <img src="/assets/smart-traffic.jpg" alt="Smart traffic lights" />
+                <img :src="IMAGE_URLS.SMART_TRAFFIC_LIGHTS" alt="Smart traffic lights" />
             </div>
 
             <div class="solution-card">
@@ -21,7 +21,7 @@
                 <p>
                     Bins that notify authorities when full and help optimize collection routes to save fuel and time.
                 </p>
-                <img src="/assets/smart-bins.jpg" alt="Smart waste bin" />
+                <img :src="IMAGE_URLS.SMART_BINS" alt="Smart waste bin" />
             </div>
 
             <div class="solution-card">
@@ -30,7 +30,7 @@
                     Promote community solar programs to reduce dependency on non-renewable sources and lower electricity
                     bills.
                 </p>
-                <img src="/assets/solar-grid.jpg" alt="Solar panel solution" />
+                <img :src="IMAGE_URLS.SOLAR_PANEL_GRIDS" alt="Solar panel solution" />
             </div>
         </div>
 
@@ -43,6 +43,7 @@
 <script setup>
 import EnergyTracker from '../components/EnergyTracker.vue'
 import SmartCommutePlanner from '../components/SmartCommutePlanner.vue'
+import { IMAGE_URLS } from '../constants/imageUrl'
 </script>
 
 <style scoped>

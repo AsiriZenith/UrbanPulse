@@ -13,7 +13,7 @@
                 <p>
                     Volunteer for a city-wide clean-up campaign to promote environmental awareness and reduce litter.
                 </p>
-                <img src="/assets/cleanup-event.jpg" alt="Clean-up event" />
+                <img :src="IMAGE_URLS.CITY_CLEANUP_DRIVE" alt="Clean-up event" />
             </div>
 
             <div class="event-card">
@@ -23,7 +23,7 @@
                     Explore smart devices, green technology, and IoT-based solutions showcased by students and local
                     startups.
                 </p>
-                <img src="/assets/tech-expo.jpg" alt="Smart tech expo" />
+                <img :src="IMAGE_URLS.SMART_CITY_TECH_EXPO" alt="Smart tech expo" />
             </div>
 
             <div class="event-card">
@@ -33,11 +33,15 @@
                     Learn how to build rooftop gardens and use composting for household waste in this free community
                     session.
                 </p>
-                <img src="/assets/garden-workshop.jpg" alt="Garden workshop" />
+                <img :src="IMAGE_URLS.URBAN_GARDEN_WORKSHOP" alt="Garden workshop" />
             </div>
         </div>
     </section>
 </template>
+
+<script setup lang="ts">
+import { IMAGE_URLS } from '../constants/imageUrl';
+</script>
 
 <style scoped>
 .events {
